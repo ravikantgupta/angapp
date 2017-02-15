@@ -90,21 +90,21 @@
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
     -->
     
-    <gap:plugin name="org.apache.cordova.device" version="0.2.12"
+    <plugin name="org.apache.cordova.device" version="0.2.12"
     	source="plugins.cordova.io">
-    </gap:plugin>
-    <gap:plugin name="org.apache.cordova.dialogs" version="0.2.10"
+    </plugin>
+    <plugin name="org.apache.cordova.dialogs" version="0.2.10"
     	source="plugins.cordova.io">
-    </gap:plugin>
-    <gap:plugin name="org.apache.cordova.geolocation" version="0.3.10"
+    </plugin>
+    <plugin name="org.apache.cordova.geolocation" version="0.3.10"
     	source="plugins.cordova.io">
-    </gap:plugin>
-    <gap:config-file platform="ios"
+    </plugin>
+    <config-file platform="ios"
     	parent="NSLocationAlwaysUsageDescription" mode="merge">
     	<array>
     		<string>Allow GPS</string>
     	</array>
-    </gap:config-file>
-    <gap:plugin name="org.apache.cordova.vibration" version="0.3.11"
+    </config-file>
+    <plugin name="org.apache.cordova.vibration" version="0.3.11"
     	source="plugins.cordova.io">
-    </gap:plugin></widget>
+    </plugin></widget>
