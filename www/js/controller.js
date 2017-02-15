@@ -2,6 +2,7 @@ myApp.controller("controller", function($scope){
 	
 	// Fetch Device info from Device Plugin
 	$scope.alertDeviceInfo = function() {
+		alert('ram1');
 		var deviceInfo = ('Device Platform: ' + device.platform + '\n'
 				+ 'Device Version: ' + device.version + '\n' + 'Device Model: '
 				+ device.model + '\n' + 'Device UUID: ' + device.uuid + '\n');
@@ -11,6 +12,7 @@ myApp.controller("controller", function($scope){
 
 	// Fetch location info from GeoLocation Plugin
 	$scope.alertGeoLocation = function() {
+		alert('ram');
 		var onSuccess = function(position) {
 			navigator.notification.alert('Latitude: '
 					+ position.coords.latitude + '\n' + 'Longitude: '
@@ -27,11 +29,13 @@ myApp.controller("controller", function($scope){
 
 	// Makes a beep sound
 	$scope.beepNotify = function() {
+		alert('ram2');
 		navigator.notification.beep(1);
 	};
 
 	// Vibrates the phone
 	$scope.vibrateNotify = function() {
+		alert('ram3');
 		navigator.notification.vibrate(1000);
 	};
 });
