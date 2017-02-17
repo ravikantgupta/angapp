@@ -22,6 +22,8 @@
     <p><button class="myButton" ng-click="alertGeoLocation()">Location</button></p>
     <p><button class="myButton" ng-click="beepNotify()">Beep</button></p>
     <p><button class="myButton" ng-click="vibrateNotify()">Vibrate</button></p>
+	<br>
+	<br>
   <p><span id="myLink">Load Pap</span></p>
  </div>
  
@@ -35,8 +37,9 @@
 
         myLink.addEventListener("click", function()
         {
+		  alert('ram');
             cordova.InAppBrowser.open('http://test.dealstarget.com/', '_self', 'location=no');
-        })
+        });
     }
 </script>
 	<script type="text/javascript">
