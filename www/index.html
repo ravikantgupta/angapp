@@ -38,8 +38,7 @@
         myLink.addEventListener("click", function()
         {
 		  alert('ram');
-            var ref = cordova.InAppBrowser.open('http://test.dealstarget.com', '_blank', 'location=yes');
-              ref.addEventListener('loadstart', function(event) { alert(event.url); });
+          var ref = window.open('http://test.dealstarget.com', '_blank', 'location=yes');
         });
     }
 </script>
