@@ -22,8 +22,23 @@
     <p><button class="myButton" ng-click="alertGeoLocation()">Location</button></p>
     <p><button class="myButton" ng-click="beepNotify()">Beep</button></p>
     <p><button class="myButton" ng-click="vibrateNotify()">Vibrate</button></p>
- 
+  <p><span id="myLink">Load Pap</span></p>
  </div>
+ 
+
+<script>
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    function onDeviceReady()
+    {
+        var myLink = document.getElementById('myLink');
+
+        myLink.addEventListener("click", function()
+        {
+            cordova.InAppBrowser.open('http://test.dealstarget.com/', '_self', 'location=no');
+        })
+    }
+</script>
 	<script type="text/javascript">
             app.initialize();
         </script>

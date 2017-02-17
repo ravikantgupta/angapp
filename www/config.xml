@@ -15,7 +15,7 @@
 
 	
     <content src="index.html" />
-    
+    	<plugin name="org.apache.cordova.inappbrowser" spec="0.5.2" source="pgb" />
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
