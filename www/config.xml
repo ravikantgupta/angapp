@@ -2,15 +2,15 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "pgangularnotificationapp.id"
+        id        = "dalonspademo.id"
         version   = "1.0.0">
 
-    <name>PGAngularNotificationApp</name>
+    <name>Salonspa demo</name>
 
     <description>Blank Application</description>
 
-    <author href="http://myeclipseide.com" email="support@genuitec.com">
-        MyEclipse Phonegap Tools
+    <author href="http://myeclipseide.com" email="support@statikking.com">
+       Statik king team
     </author>
 
 	
